@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@tauri-apps/api", "npm:2.4.1"],\
           ["@tauri-apps/cli", "npm:2.4.1"],\
           ["@tauri-apps/plugin-opener", "npm:2.2.6"],\
+          ["@tauri-apps/plugin-sql", "npm:2.2.0"],\
           ["@types/react", "npm:18.3.20"],\
           ["@types/react-dom", "virtual:7a647ceeb7450b597aefbd8c4817521e1d72286c20d74e8a44e4f1e359c1fbc3795042e980e30fb504163e067d92649e137bbb0255ae13144ed4806498f4814c#npm:18.3.6"],\
           ["@vitejs/plugin-react", "virtual:7a647ceeb7450b597aefbd8c4817521e1d72286c20d74e8a44e4f1e359c1fbc3795042e980e30fb504163e067d92649e137bbb0255ae13144ed4806498f4814c#npm:4.3.4"],\
@@ -958,6 +959,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@tauri-apps-plugin-opener-npm-2.2.6-2f18541b29-10c0.zip/node_modules/@tauri-apps/plugin-opener/",\
         "packageDependencies": [\
           ["@tauri-apps/plugin-opener", "npm:2.2.6"],\
+          ["@tauri-apps/api", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tauri-apps/plugin-sql", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@tauri-apps-plugin-sql-npm-2.2.0-c88e140160-10c0.zip/node_modules/@tauri-apps/plugin-sql/",\
+        "packageDependencies": [\
+          ["@tauri-apps/plugin-sql", "npm:2.2.0"],\
           ["@tauri-apps/api", "npm:2.4.1"]\
         ],\
         "linkType": "HARD"\
@@ -2188,6 +2199,7 @@ const RAW_RUNTIME_STATE =
           ["@tauri-apps/api", "npm:2.4.1"],\
           ["@tauri-apps/cli", "npm:2.4.1"],\
           ["@tauri-apps/plugin-opener", "npm:2.2.6"],\
+          ["@tauri-apps/plugin-sql", "npm:2.2.0"],\
           ["@types/react", "npm:18.3.20"],\
           ["@types/react-dom", "virtual:7a647ceeb7450b597aefbd8c4817521e1d72286c20d74e8a44e4f1e359c1fbc3795042e980e30fb504163e067d92649e137bbb0255ae13144ed4806498f4814c#npm:18.3.6"],\
           ["@vitejs/plugin-react", "virtual:7a647ceeb7450b597aefbd8c4817521e1d72286c20d74e8a44e4f1e359c1fbc3795042e980e30fb504163e067d92649e137bbb0255ae13144ed4806498f4814c#npm:4.3.4"],\
